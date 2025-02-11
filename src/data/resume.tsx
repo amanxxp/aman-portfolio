@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Aman Panwar",
   initials: "AP",
-  url: "https://dillion.io",
+  url: "https://aman-portfolio-indol.vercel.app/",
   location: "Greater Nodia, India",
   locationLink: "https://www.google.com/maps/@28.4721152,77.5159808,12z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
   description: "Fullstack developer with the passion of aviation.",
@@ -20,8 +20,9 @@ export const DATA = {
     "Prisma",
     "Kafka",
     "Docker",
-    "C++",
+    "strapi",
     "Redis",
+    "c++",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -30,7 +31,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/qnJtNFg",
+        url: "https://github.com/amanxxp",
         icon: Icons.github,
 
         navbar: true,
@@ -61,28 +62,28 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Bytive Technologies",
+      href: "https://bytive.in/",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "Nodia",
+      title: "Backend Developer Intern",
+      logoUrl: "/bytive_logo.jpeg",
+      start: "Jan 2025",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Experienced Backend Developer with expertise in Strapi CMS, designing scalable APIs and custom plugins for dynamic content delivery. Proficient in MongoDB aggregation pipelines, Node.js microservices, and PostgreSQL for high-performance applications. Adept at integrating Facebook Pixel for analytics and building advanced geolocation services with spatial queries for location-aware functionalities."
     },
     {
-      company: "Shopify",
+      company: "Maruti",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://www.marutisuzuki.com/",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      title: "Software Developer Intern",
+      logoUrl: "/maruti-suzuki.png",
+      start: "Aug 2024",
+      end: "Oct 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed and optimized a file search and retrieval system using Node.js and Next.js for efficient file management. Improved search performance with lazy loading, pagination, and TanStack caching, reducing load time. Enhanced user experience through a responsive Next.js frontend at Maruti Suzuki India Ltd."
     },
   ],
   education: [
