@@ -6,7 +6,8 @@ export const DATA = {
   initials: "AP",
   url: "https://aman-portfolio-indol.vercel.app/",
   location: "Greater Nodia, India",
-  locationLink: "https://www.google.com/maps/@28.4721152,77.5159808,12z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
+  locationLink:
+    "https://www.google.com/maps/@28.4721152,77.5159808,12z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
   description: "Fullstack developer with the passion of aviation.",
   summary:
     "I'm a full-stack developer with a passion for aviation, having started my degree in Computer Science at the end of 2021. Currently, [I'm working on a project called DevMatch](#projects) which helps developers connect and collaborate based on their skill sets to foster meaningful projects and opportunities.",
@@ -71,7 +72,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "Present",
       description:
-        "Experienced Backend Developer with expertise in Strapi CMS, designing scalable APIs and custom plugins for dynamic content delivery. Proficient in MongoDB aggregation pipelines, Node.js microservices, and PostgreSQL for high-performance applications. Adept at integrating Facebook Pixel for analytics and building advanced geolocation services with spatial queries for location-aware functionalities."
+        "Experienced Backend Developer with expertise in Strapi CMS, designing scalable APIs and custom plugins for dynamic content delivery. Proficient in MongoDB aggregation pipelines, Node.js microservices, and PostgreSQL for high-performance applications. Adept at integrating Facebook Pixel for analytics and building advanced geolocation services with spatial queries for location-aware functionalities.",
     },
     {
       company: "Maruti",
@@ -83,7 +84,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Oct 2024",
       description:
-        "Developed and optimized a file search and retrieval system using Node.js and Next.js for efficient file management. Improved search performance with lazy loading, pagination, and TanStack caching, reducing load time. Enhanced user experience through a responsive Next.js frontend at Maruti Suzuki India Ltd."
+        "Developed and optimized a file search and retrieval system using Node.js and Next.js for efficient file management. Improved search performance with lazy loading, pagination, and TanStack caching, reducing load time. Enhanced user experience through a responsive Next.js frontend at Maruti Suzuki India Ltd.",
     },
   ],
   education: [
@@ -106,35 +107,9 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Testify",
-      href: "https://github.com/devansh193/testify",
-      dates: "September 2024 - Present",
-      active: true,
-      description:
-        "An interactive platform for businesses to collect and showcase user testimonials, enhancing credibility and trust. It features secure user authentication with NextAuth.js and Recoil for state management. Businesses can customize review forms, generate public testimonial pages, and manage feedback via an intuitive, UX-focused dashboard for insights and accessibility.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "AuthJs",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/devansh193/testify",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/testify.jpeg",
-      video: "",
-    },
-    {
       title: "finance.app",
-      href: "https://github.com/devansh193/finance.app",
-      dates: "Jan 2024 - Feb 2024",
+      href: "https://github.com/amanxxp/finance.app",
+      dates: "July 2024 - Sep 2024",
       active: true,
       description:
         "Finance.app is a project that enables users to manage transactions seamlessly across multiple accounts and categories. It provides an organized platform for tracking expenses, categorizing transactions, and maintaining an overview of financial activities, helping users to streamline their budgeting and financial planning.",
@@ -149,26 +124,28 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/devansh193/finance.app",
+          href: "https://github.com/amanxxp/finance.app",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/finance.jpeg",
       video: "",
-    },
+    },  
     {
-      title: "Hire me",
-      href: "https://github.com/devansh193/hireme",
-      dates: "June 2024 - Present",
+      title: "Sarathi",
+      href: "https://github.com/amanxxp/Sarathi",
+      dates: "June 2024",
       active: true,
-      description: "Designed and developed a platform to hire great talent.",
+      description:
+        "Designed and developed a Self-help app for women's jobs and support.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Socket",
+        "Kafka",
+        "Redis",
+        "Docker",
       ],
       links: [
         // {
@@ -178,13 +155,37 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/devansh193/hireme",
+          href: "https://github.com/amanxxp/Sarathi",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/hire.jpeg",
+      image: "/sarathi.png",
       video: "",
-    },
+    },{
+      title: "VibeNet",
+      href: "https://github.com/amanxxp/vibenet",
+      dates: "May 2024 - June 2024",
+      active: true,
+      description: "Designed and developed a social networking platform focused on personalized content discovery and user profile management. Implemented a real-time recommendation engine using Kafka and MongoDB, delivering tailored content suggestions by scoring user interactions with keywords and prioritizing the most relevant content. Utilized Redis for caching frequently accessed data, significantly reducing database load and enhancing response times.",
+      technologies: [
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "React-query",
+        "Kafka",
+        "Redis",
+        "Docker"
+      ],
+      links: [
+        {
+          "type": "Source",
+          "href": "https://github.com/amanxxp/vibenet",
+          "icon": <Icons.github className="size-3" />,
+        }
+      ],
+      "image": "/vibe_net.png",
+      "video": ""
+    },  
   ],
   // hackathons: [
   //   {
